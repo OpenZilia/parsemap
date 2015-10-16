@@ -1,0 +1,19 @@
+[parse]
+
+ip = 0.0.0.0
+port = 8000
+
+ssl_ip = 0.0.0.0
+ssl_port = 4000
+
+crt_file = dev_certs/server.crt
+key_file = dev_certs/server.key
+
+api_key=[api_key]
+
+[postgres]
+
+ip = [postgres_ip]
+database = [postgres_database]
+role = [postgres_role]
+password = [postgres_password]

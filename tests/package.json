@@ -1,0 +1,15 @@
+{
+  "name": "apitester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "frisby": "^0.8.5",
+    "querystring": "^0.2.0"
+  }
+}
