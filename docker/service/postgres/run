@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-export POSTGRES_USER=$(awk -F "=" '/role/ {print $2}' /etc/parsemap.ini)
-export POSTGRES_PASSWORD=$(awk -F "=" '/password/ {print $2}' /etc/parsemap.ini)
+export POSTGRES_USER=$(awk -F " = " '/role/ {print $2}' /etc/parsemap.ini)
+export POSTGRES_PASSWORD=$(awk -F " = " '/password/ {print $2}' /etc/parsemap.ini)
 
 exec /docker-entrypoint.sh postgres

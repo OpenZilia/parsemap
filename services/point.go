@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"git.ccsas.biz/geohash"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
+	"github.com/vitaminwater/geohash"
 	"gopkg.in/guregu/null.v2"
 )
 
