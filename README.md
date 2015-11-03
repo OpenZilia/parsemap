@@ -3,14 +3,6 @@ Introduction
 
 Plug and play map backend.
 
-```
-This code is the first code I made last year in Go, the way I manage
-rest services implies a lot of nearly duplicated code, a better
-and more functionnal way is under construction.
-
-But the outside Rest API should not change.
-```
-
 Parsemap is a micro service meant to be directly plugged behind a map
 on a mobile app or website, it can be used with any of GoogleMaps, MapView from Apple or
 Mapbox.

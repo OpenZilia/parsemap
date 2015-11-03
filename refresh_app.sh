@@ -27,4 +27,6 @@ echo "Build success"
 #    -e "s/\[postgres_role\]/parsemap/g" \
 #    -e "s/\[postgres_password\]/parsemap/g" <dev_config.ini.template >dev_config.ini
 
+# If you get an error saying geohash image not found,
+# move the libgeohash.so to you /usr/local/lib/ folder.
 ./$SERVICE -c dev_config.ini
